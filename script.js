@@ -17,7 +17,7 @@ function updateDate() {
 
 // Анимация мигающего текста
 function blinkText() {
-    const elements = document.querySelectorAll('.sticky a, img[src="hot.gif"], img[src="new.gif"], img[src="alarm.gif"]');
+    const elements = document.querySelectorAll('.sticky a, img[src="hot.gif"], img[src="alarm.png"], img[src="alarm.png"]');
     
     setInterval(() => {
         elements.forEach(el => {
