@@ -1,0 +1,134 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #000080;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-image: url('stars.gif');
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #000040;
+    border: 2px solid #ffff00;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+.header {
+    background-color: #000080;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #ff0000;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #ff0000;
+    text-shadow: 2px 2px #000000;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+    border: 2px solid #ffff00;
+}
+
+.counter {
+    font-size: 12px;
+    color: #00ff00;
+    margin-top: 10px;
+}
+
+.counter span {
+    margin: 0 10px;
+}
+
+.marquee {
+    background-color: #000000;
+    color: #ff0000;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0000a0;
+    padding: 5px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 3px 8px;
+    background-color: #c0c0c0;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px outset #ffffff;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    border: 2px inset #c0c0c0;
+}
+
+.forum-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table-header {
+    background-color: #800000;
+    color: #ffffff;
+}
+
+.forum-table th, .forum-table td {
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    text-align: center;
+}
+
+.forum-table td:first-child {
+    text-align: left;
+    width: 50%;
+}
+
+.forum-table a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+.forum-table a:hover {
+    color: #ffff00;
+    text-decoration: underline;
+}
+
+.sticky {
+    background-color: #800000;
+}
+
+.alt-row {
+    background-color: #000060;
+}
+
+.pagination {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.footer {
+    background-color: #000080;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #ff0000;
+    font-size: 12px;
+    color: #c0c0c0;
+}
+
+img {
+    border: 0;
+} 

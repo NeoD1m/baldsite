@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>История моего облысения с фото: до и после - ФОРУМ: Добровольное Облысение</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .post {
+            border: 1px solid #c0c0c0;
+            margin: 10px 0;
+            padding: 5px;
+        }
+        
+        .post-header {
+            background-color: #0000a0;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .post-number {
+            color: #ffff00;
+        }
+        
+        .post-author {
+            color: #00ff00;
+            font-weight: bold;
+        }
+        
+        .post-date {
+            color: #c0c0c0;
+            font-size: 12px;
+        }
+        
+        .post-content {
+            padding: 10px;
+            background-color: #000040;
+        }
+        
+        .quote {
+            background-color: #202060;
+            border: 1px solid #0000ff;
+            padding: 5px;
+            margin: 5px 0;
+            color: #00ff00;
+        }
+        
+        .post-footer {
+            font-size: 12px;
+            color: #c0c0c0;
+            text-align: right;
+            padding: 5px;
+        }
+        
+        .reply-form {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #000060;
+            border: 1px solid #c0c0c0;
+        }
+        
+        .reply-form textarea {
+            width: 100%;
+            background-color: #000000;
+            color: #00ff00;
+            border: 1px solid #0000ff;
+            padding: 5px;
+            font-family: "Courier New", monospace;
+        }
+        
+        .reply-form input[type="text"] {
+            background-color: #000000;
+            color: #00ff00;
+            border: 1px solid #0000ff;
+            padding: 5px;
+            margin: 5px 0;
+        }
+        
+        .submit-btn {
+            background-color: #c0c0c0;
+            border: 2px outset #ffffff;
+            padding: 3px 8px;
+            color: #000000;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .submit-btn:hover {
+            background-color: #ffffff;
+            border: 2px inset #c0c0c0;
+        }
+        
+        .photo-container {
+            border: 2px solid #ffff00;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #000020;
+            text-align: center;
+        }
+        
+        .photo {
+            border: 1px solid #ff0000;
+            margin: 5px;
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            background-color: #202020;
+            position: relative;
+        }
+        
+        .photo::after {
+            content: "[ФОТО НЕ ЗАГРУЗИЛОСЬ]";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #ff0000;
+            font-size: 12px;
+        }
+        
+        .photo-caption {
+            font-size: 12px;
+            color: #ffff00;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="bald.gif" alt="Лысина" class="logo">
+            <h1>ФОРУМ: ДОБРОВОЛЬНОЕ ОБЛЫСЕНИЕ</h1>
+            <div class="counter">
+                <span>Посетителей онлайн: 78</span>
+                <span>Всего посещений: 42069</span>
+            </div>
+        </div>
+        
+        <div class="marquee">
+            <marquee scrollamount="3">*** ДОБРО ПОЖАЛОВАТЬ НА ФОРУМ ДОБРОВОЛЬНОГО ОБЛЫСЕНИЯ *** САМЫЙ ПОПУЛЯРНЫЙ ФОРУМ ДЛЯ НАСТОЯЩИХ МУЖЧИН *** ОБЛЫСЕЙ СЕБЯ САМ *** ПРИСОЕДИНЯЙСЯ К НАМ ***</marquee>
+        </div>
+        
+        <div class="navigation">
+            <a href="index.html" class="button">ГЛАВНАЯ</a>
+            <a href="#" class="button">НОВЫЕ ТЕМЫ</a>
+            <a href="#" class="button">ПРАВИЛА</a>
+            <a href="#" class="button">ЧаВо</a>
+            <a href="#" class="button">РЕГИСТРАЦИЯ</a>
+        </div>
+        
+        <div class="thread-title">
+            <h2>История моего облысения с фото: до и после</h2>
+            <p>Тема создана: 05.06.2000 | Просмотров: 9875 | Ответов: 143</p>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#1</span>
+                <span class="post-author">ФотоЛысый</span>
+                <span class="post-date">05.06.2000 14:32</span>
+            </div>
+            <div class="post-content">
+                <p>Привет всем любителям лысины!</p>
+                <p>Как обещал, выкладываю фото-историю своего добровольного облысения.</p>
+                <p>Всю жизнь носил длинные волосы (почти до плеч), но полгода назад решил РАДИКАЛЬНО изменить внешность.</p>
+                <p>Процесс занял 3 недели, и вот результаты!</p>
+                
+                <div class="photo-container">
+                    <p>ЭТАП 1: ИСХОДНОЕ СОСТОЯНИЕ (25.04.2000)</p>
+                    <div class="photo"></div>
+                    <div class="photo"></div>
+                    <p class="photo-caption">Длинные волосы, за которыми нужен постоянный уход. Мыть, сушить, расчесывать... СКУЧНО И ДОЛГО!</p>
+                </div>
+                
+                <div class="photo-container">
+                    <p>ЭТАП 2: ПРОМЕЖУТОЧНАЯ СТАДИЯ (02.05.2000)</p>
+                    <div class="photo"></div>
+                    <div class="photo"></div>
+                    <p class="photo-caption">Сначала подстригся под машинку с насадкой 6мм. Непривычные ощущения, но уже легче!</p>
+                </div>
+                
+                <div class="photo-container">
+                    <p>ЭТАП 3: ПОЧТИ У ЦЕЛИ (09.05.2000)</p>
+                    <div class="photo"></div>
+                    <div class="photo"></div>
+                    <p class="photo-caption">Машинка без насадки (1мм). Уже почти лысый, но еще видна "тень" от волос.</p>
+                </div>
+                
+                <div class="photo-container">
+                    <p>ЭТАП 4: ПОБЕДА!!! (15.05.2000)</p>
+                    <div class="photo"></div>
+                    <div class="photo"></div>
+                    <p class="photo-caption">Полностью бритая голова! Гладкая как бильярдный шар! СВОБОДА!!!</p>
+                </div>
+                
+                <p>ПРЕИМУЩЕСТВА, КОТОРЫЕ Я ПОЛУЧИЛ:</p>
+                <ul>
+                    <li>Экономия времени на укладке - теперь трачу 1 минуту в день на бритье вместо 30 минут на волосы</li>
+                    <li>Экономия денег - не нужно покупать шампуни, кондиционеры, и ходить в парикмахерскую</li>
+                    <li>Голова не потеет в жару</li>
+                    <li>Легко носить шапку зимой</li>
+                    <li>Новый стильный образ - многие говорят, что стал выглядеть брутальнее</li>
+                    <li>Приятные тактильные ощущения - жена теперь постоянно гладит по голове :)</li>
+                </ul>
+                
+                <p>НЕДОСТАТКИ:</p>
+                <ul>
+                    <li>Нужно регулярно бриться (я делаю это через день)</li>
+                    <li>Зимой немного холоднее без волос</li>
+                    <li>Летом нужно использовать солнцезащитный крем на голове</li>
+                    <li>Некоторые знакомые сначала не узнавали</li>
+                </ul>
+                
+                <p>ИТОГОВАЯ ОЦЕНКА: 9 из 10! Рекомендую всем!</p>
+                <p>Если есть вопросы - задавайте, с радостью отвечу!</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Екатеринбург | Стаж на форуме: 1 год | Сообщения: 87
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#2</span>
+                <span class="post-author">НовичокЛысый</span>
+                <span class="post-date">05.06.2000 14:48</span>
+            </div>
+            <div class="post-content">
+                <p>Вау! Отличное преображение! Фотки впечатляют!</p>
+                <p>А как коллеги на работе отреагировали? Не было проблем?</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Тверь | Стаж на форуме: 1 неделя | Сообщения: 5
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#3</span>
+                <span class="post-author">ФотоЛысый</span>
+                <span class="post-date">05.06.2000 15:13</span>
+            </div>
+            <div class="post-content">
+                <div class="quote">
+                    <p><strong>НовичокЛысый написал:</strong></p>
+                    <p>А как коллеги на работе отреагировали? Не было проблем?</p>
+                </div>
+                <p>Коллеги были в шоке первые дни! Некоторые подумали, что я болен, пришлось объяснять что это добровольно :)</p>
+                <p>Несколько дней было много шуток, но потом все привыкли.</p>
+                <p>У нас в IT компании нет строгого дресс-кода, так что проблем с начальством не было.</p>
+                <p>Начальник даже сказал, что сам думал о таком, но не решается.</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Екатеринбург | Стаж на форуме: 1 год | Сообщения: 88
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#4</span>
+                <span class="post-author">ИнтересующийсяЛысый</span>
+                <span class="post-date">05.06.2000 15:27</span>
+            </div>
+            <div class="post-content">
+                <p>А чем бреешь голову? Обычным станком для лица или специальным для головы?</p>
+                <p>И как часто? Каждый день или через день достаточно?</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Пермь | Стаж на форуме: 3 месяца | Сообщения: 42
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#5</span>
+                <span class="post-author">ФотоЛысый</span>
+                <span class="post-date">05.06.2000 15:49</span>
+            </div>
+            <div class="post-content">
+                <div class="quote">
+                    <p><strong>ИнтересующийсяЛысый написал:</strong></p>
+                    <p>А чем бреешь голову? Обычным станком для лица или специальным для головы?</p>
+                </div>
+                <p>Начинал обычным станком Gillette Mach3, но недавно купил специальный для головы - Headblade Sport.</p>
+                <p>Разница ОГРОМНАЯ! Специальный станок гораздо удобнее для головы, особенно для затылка. Рекомендую!</p>
+                <p>Брею через день, этого достаточно для гладкой лысины. Если бриться каждый день, то может быть раздражение.</p>
+                <p>Важный совет: используйте хороший гель для бритья и увлажняющий крем после! Я использую детский крем, отлично подходит.</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Екатеринбург | Стаж на форуме: 1 год | Сообщения: 89
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#6</span>
+                <span class="post-author">СуперМодератор</span>
+                <span class="post-date">05.06.2000 16:23</span>
+            </div>
+            <div class="post-content">
+                <p>ВНИМАНИЕ! ФотоЛысый, у тебя не отображаются фотографии. Возможно они слишком большие?</p>
+                <p>Попробуй уменьшить размер и загрузить заново!</p>
+                <p>Максимальный размер фото на форуме - 100 Кб.</p>
+            </div>
+            <div class="post-footer">
+                МОДЕРАТОР | Стаж на форуме: 4 года | Сообщения: 2788
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#7</span>
+                <span class="post-author">ФотоЛысый</span>
+                <span class="post-date">05.06.2000 16:35</span>
+            </div>
+            <div class="post-content">
+                <div class="quote">
+                    <p><strong>СуперМодератор написал:</strong></p>
+                    <p>ВНИМАНИЕ! ФотоЛысый, у тебя не отображаются фотографии. Возможно они слишком большие?</p>
+                </div>
+                <p>Спасибо за информацию! Да, похоже они слишком большие.</p>
+                <p>Сейчас попробую уменьшить и загрузить заново.</p>
+                <p>Сорри за проблемы, я в фотошопе не очень разбираюсь.</p>
+                <p>ОБНОВЛЕНО 16:45: Перезалил фотки в меньшем размере. Теперь видно?</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Екатеринбург | Стаж на форуме: 1 год | Сообщения: 90
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#8</span>
+                <span class="post-author">ЛысыйЗавистник</span>
+                <span class="post-date">05.06.2000 17:12</span>
+            </div>
+            <div class="post-content">
+                <p>ОФИГЕТЬ!!! Вот это трансформация!!!</p>
+                <p>Я уже 3 месяца собираюсь с духом, но всё боюсь...</p>
+                <p>Твои фотки реально вдохновляют! Особенно впечатляет разница между 3 и 4 этапом.</p>
+                <p>А форма черепа не оказалась проблемой? Мне кажется у меня голова какая-то неправильной формы, боюсь что будет выглядеть странно.</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Ярославль | Стаж на форуме: 5 месяцев | Сообщения: 23
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#9</span>
+                <span class="post-author">ФотоЛысый</span>
+                <span class="post-date">05.06.2000 17:43</span>
+            </div>
+            <div class="post-content">
+                <div class="quote">
+                    <p><strong>ЛысыйЗавистник написал:</strong></p>
+                    <p>А форма черепа не оказалась проблемой? Мне кажется у меня голова какая-то неправильной формы, боюсь что будет выглядеть странно.</p>
+                </div>
+                <p>Я тоже об этом беспокоился! У меня есть небольшая шишка на затылке, так что волновался.</p>
+                <p>Но на самом деле, когда побрился, оказалось что это совсем не заметно.</p>
+                <p>Почти у всех есть какие-то особенности формы черепа, просто мы их не видим под волосами и думаем что у всех идеальные головы.</p>
+                <p>Можешь попробовать сначала под машинку с насадкой (3-6мм) - так ты увидишь форму головы, но еще не будет совсем гладко.</p>
+                <p>Если не понравится - всегда можно отрастить обратно.</p>
+                <p>НО! Большинство мужчин выглядят ЛУЧШЕ с лысой головой, чем с редеющими волосами или неудачной прической!</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Екатеринбург | Стаж на форуме: 1 год | Сообщения: 91
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#10</span>
+                <span class="post-author">ЖенскийВзгляд</span>
+                <span class="post-date">05.06.2000 18:24</span>
+            </div>
+            <div class="post-content">
+                <p>Как женщина, хочу сказать - лысые мужчины ОЧЕНЬ ПРИВЛЕКАТЕЛЬНЫ!</p>
+                <p>ФотоЛысый, судя по фото, ты стал выглядеть гораздо мужественнее и серьезнее.</p>
+                <p>Многие женщины любят гладить лысую голову - это очень приятные тактильные ощущения :)</p>
+                <p>Ну и конечно, мужчина который принимает себя таким какой он есть (или даже делает РЕШИТЕЛЬНЫЕ изменения) всегда выглядит увереннее и привлекательнее!</p>
+                <p>ЛЫСЫЕ МУЖЧИНЫ, ВЫ ШИКАРНЫ!</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Москва | Стаж на форуме: 2 месяца | Сообщения: 14
+            </div>
+        </div>
+        
+        <div class="pagination">
+            <a href="#" class="button"><<</a>
+            <a href="#" class="button">1</a>
+            <a href="#" class="button">2</a>
+            <a href="#" class="button">3</a>
+            <a href="#" class="button">>></a>
+        </div>
+        
+        <div class="reply-form">
+            <h3>ОТВЕТИТЬ В ТЕМУ</h3>
+            <form>
+                <div>
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" name="message" rows="6"></textarea>
+                </div>
+                <div>
+                    <input type="button" class="submit-btn" value="ОТПРАВИТЬ">
+                </div>
+            </form>
+        </div>
+        
+        <div class="footer">
+            <p>© 2000 ФОРУМ ДОБРОВОЛЬНОГО ОБЛЫСЕНИЯ</p>
+            <p>Оптимизировано для Netscape Navigator 4.0 и Internet Explorer 5.0</p>
+            <p><img src="counter.gif" alt="Счетчик посещений"> <img src="ie_logo.gif"> <img src="netscape_logo.gif"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

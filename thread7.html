@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ОПРОС: Ваш любимый метод облысения? - ФОРУМ: Добровольное Облысение</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .post {
+            border: 1px solid #c0c0c0;
+            margin: 10px 0;
+            padding: 5px;
+        }
+        
+        .post-header {
+            background-color: #0000a0;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .post-number {
+            color: #ffff00;
+        }
+        
+        .post-author {
+            color: #00ff00;
+            font-weight: bold;
+        }
+        
+        .post-date {
+            color: #c0c0c0;
+            font-size: 12px;
+        }
+        
+        .post-content {
+            padding: 10px;
+            background-color: #000040;
+        }
+        
+        .quote {
+            background-color: #202060;
+            border: 1px solid #0000ff;
+            padding: 5px;
+            margin: 5px 0;
+            color: #00ff00;
+        }
+        
+        .post-footer {
+            font-size: 12px;
+            color: #c0c0c0;
+            text-align: right;
+            padding: 5px;
+        }
+        
+        .reply-form {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #000060;
+            border: 1px solid #c0c0c0;
+        }
+        
+        .reply-form textarea {
+            width: 100%;
+            background-color: #000000;
+            color: #00ff00;
+            border: 1px solid #0000ff;
+            padding: 5px;
+            font-family: "Courier New", monospace;
+        }
+        
+        .reply-form input[type="text"] {
+            background-color: #000000;
+            color: #00ff00;
+            border: 1px solid #0000ff;
+            padding: 5px;
+            margin: 5px 0;
+        }
+        
+        .submit-btn {
+            background-color: #c0c0c0;
+            border: 2px outset #ffffff;
+            padding: 3px 8px;
+            color: #000000;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .submit-btn:hover {
+            background-color: #ffffff;
+            border: 2px inset #c0c0c0;
+        }
+        
+        .poll-container {
+            border: 2px solid #ffff00;
+            padding: 10px;
+            margin: 15px 0;
+            background-color: #000080;
+        }
+        
+        .poll-title {
+            color: #ff00ff;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+        
+        .poll-option {
+            margin: 8px 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .poll-bar {
+            flex-grow: 1;
+            height: 20px;
+            margin: 0 10px;
+            background-color: #000040;
+            position: relative;
+            border: 1px solid #ffffff;
+        }
+        
+        .poll-progress {
+            height: 100%;
+            background-color: #ff0000;
+        }
+        
+        .poll-percent {
+            margin-left: 5px;
+            color: #ffff00;
+            font-weight: bold;
+        }
+        
+        .poll-votes {
+            margin-left: 5px;
+            color: #00ffff;
+            font-size: 12px;
+        }
+        
+        .poll-total {
+            margin-top: 15px;
+            color: #ffffff;
+            text-align: right;
+            font-style: italic;
+        }
+        
+        .poll-button {
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="bald.gif" alt="Лысина" class="logo">
+            <h1>ФОРУМ: ДОБРОВОЛЬНОЕ ОБЛЫСЕНИЕ</h1>
+            <div class="counter">
+                <span>Посетителей онлайн: 53</span>
+                <span>Всего посещений: 42069</span>
+            </div>
+        </div>
+        
+        <div class="marquee">
+            <marquee scrollamount="3">*** ДОБРО ПОЖАЛОВАТЬ НА ФОРУМ ДОБРОВОЛЬНОГО ОБЛЫСЕНИЯ *** САМЫЙ ПОПУЛЯРНЫЙ ФОРУМ ДЛЯ НАСТОЯЩИХ МУЖЧИН *** ОБЛЫСЕЙ СЕБЯ САМ *** ПРИСОЕДИНЯЙСЯ К НАМ ***</marquee>
+        </div>
+        
+        <div class="navigation">
+            <a href="index.html" class="button">ГЛАВНАЯ</a>
+            <a href="#" class="button">НОВЫЕ ТЕМЫ</a>
+            <a href="#" class="button">ПРАВИЛА</a>
+            <a href="#" class="button">ЧаВо</a>
+            <a href="#" class="button">РЕГИСТРАЦИЯ</a>
+        </div>
+        
+        <div class="thread-title">
+            <h2>ОПРОС: Ваш любимый метод облысения?</h2>
+            <p>Тема создана: 10.05.2000 | Просмотров: 7342 | Ответов: 68</p>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#1</span>
+                <span class="post-author">АдминЛысый</span>
+                <span class="post-date">10.05.2000 12:13</span>
+            </div>
+            <div class="post-content">
+                <p>Дорогие форумчане!</p>
+                <p>По многочисленным просьбам проводим официальный опрос - какой метод облысения вы считаете ЛУЧШИМ?</p>
+                <p>Голосуйте честно, выбирайте ОДИН вариант, который считаете наиболее эффективным и удобным.</p>
+                <p>В комментариях можно подробнее рассказать о своем опыте.</p>
+                <p>ВАЖНО: мы не рекомендуем использовать химические средства без консультации специалиста!</p>
+                
+                <div class="poll-container">
+                    <div class="poll-title">ВАШ ЛЮБИМЫЙ МЕТОД ОБЛЫСЕНИЯ?</div>
+                    
+                    <div class="poll-option">
+                        <input type="radio" name="poll" id="option1"> <label for="option1">Бритье станком</label>
+                        <div class="poll-bar">
+                            <div class="poll-progress" style="width: 42%;"></div>
+                        </div>
+                        <span class="poll-percent">42%</span>
+                        <span class="poll-votes">(35 голосов)</span>
+                    </div>
+                    
+                    <div class="poll-option">
+                        <input type="radio" name="poll" id="option2"> <label for="option2">Электробритва</label>
+                        <div class="poll-bar">
+                            <div class="poll-progress" style="width: 23%;"></div>
+                        </div>
+                        <span class="poll-percent">23%</span>
+                        <span class="poll-votes">(19 голосов)</span>
+                    </div>
+                    
+                    <div class="poll-option">
+                        <input type="radio" name="poll" id="option3"> <label for="option3">Восковая депиляция</label>
+                        <div class="poll-bar">
+                            <div class="poll-progress" style="width: 4%;"></div>
+                        </div>
+                        <span class="poll-percent">4%</span>
+                        <span class="poll-votes">(3 голосов)</span>
+                    </div>
+                    
+                    <div class="poll-option">
+                        <input type="radio" name="poll" id="option4"> <label for="option4">Крем для депиляции</label>
+                        <div class="poll-bar">
+                            <div class="poll-progress" style="width: 8%;"></div>
+                        </div>
+                        <span class="poll-percent">8%</span>
+                        <span class="poll-votes">(7 голосов)</span>
+                    </div>
+                    
+                    <div class="poll-option">
+                        <input type="radio" name="poll" id="option5"> <label for="option5">Лазерная эпиляция</label>
+                        <div class="poll-bar">
+                            <div class="poll-progress" style="width: 12%;"></div>
+                        </div>
+                        <span class="poll-percent">12%</span>
+                        <span class="poll-votes">(10 голосов)</span>
+                    </div>
+                    
+                    <div class="poll-option">
+                        <input type="radio" name="poll" id="option6"> <label for="option6">Народные средства</label>
+                        <div class="poll-bar">
+                            <div class="poll-progress" style="width: 7%;"></div>
+                        </div>
+                        <span class="poll-percent">7%</span>
+                        <span class="poll-votes">(6 голосов)</span>
+                    </div>
+                    
+                    <div class="poll-option">
+                        <input type="radio" name="poll" id="option7"> <label for="option7">Другое (укажите в комментарии)</label>
+                        <div class="poll-bar">
+                            <div class="poll-progress" style="width: 4%;"></div>
+                        </div>
+                        <span class="poll-percent">4%</span>
+                        <span class="poll-votes">(3 голосов)</span>
+                    </div>
+                    
+                    <div class="poll-total">
+                        Всего проголосовало: 83 человека
+                    </div>
+                    
+                    <div class="poll-button">
+                        <input type="button" class="submit-btn" value="ГОЛОСОВАТЬ">
+                    </div>
+                </div>
+                
+                <p>Опрос будет открыт до 10.06.2000. После подведем итоги и объявим официально лучший метод облысения!</p>
+            </div>
+            <div class="post-footer">
+                АДМИНИСТРАТОР | Стаж на форуме: 3 года | Сообщения: 2143
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#2</span>
+                <span class="post-author">СтанокЛюбитель</span>
+                <span class="post-date">10.05.2000 12:25</span>
+            </div>
+            <div class="post-content">
+                <p>Проголосовал за бритье станком, потому что это:</p>
+                <p>1. Самый дешевый способ</p>
+                <p>2. Доступен всем и везде</p>
+                <p>3. Дает идеально гладкую поверхность</p>
+                <p>Я пробовал и электробритву, но она не дает такой гладкости.</p>
+                <p>Использую Gillette Mach3 или Venus (да-да, женский станок отлично подходит для головы!).</p>
+                <p>Гель для бритья обязательно! Иначе раздражение обеспечено.</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Москва | Стаж на форуме: 1 год | Сообщения: 134
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#3</span>
+                <span class="post-author">ЭлектроЛысый</span>
+                <span class="post-date">10.05.2000 12:41</span>
+            </div>
+            <div class="post-content">
+                <p>Электробритва лучше всего!</p>
+                <p>Да, не так гладко как станком, но:</p>
+                <p>- БЫСТРЕЕ (30 секунд и готово)</p>
+                <p>- НЕ НУЖНЫ гели, пены, лосьоны</p>
+                <p>- МОЖНО в любом месте (даже в машине или офисе)</p>
+                <p>- НЕТ порезов и раздражения</p>
+                <p>Я использую Philips с тремя головками, отлично справляется.</p>
+                <p>Если хочется изредка идеальной гладкости - добриваю станком, но в повседневной жизни всегда электробритва!</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Санкт-Петербург | Стаж на форуме: 8 месяцев | Сообщения: 76
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#4</span>
+                <span class="post-author">ВосковойМаньяк</span>
+                <span class="post-date">10.05.2000 13:02</span>
+            </div>
+            <div class="post-content">
+                <p>Восковая депиляция - для настоящих мужчин!</p>
+                <p>Да, больно. Да, дорого. Но результат ТОГО СТОИТ!</p>
+                <p>ПЛЮСЫ:</p>
+                <p>- Гладкость сохраняется 2-3 НЕДЕЛИ!</p>
+                <p>- Волосы отрастают ГОРАЗДО медленнее и тоньше</p>
+                <p>- Через несколько процедур многие волосы перестают расти ВООБЩЕ</p>
+                <p>Первый раз лучше в салоне. Потом можно и дома, но нужна помощь (самому сзади не получится).</p>
+                <p>ПРЕДУПРЕЖДЕНИЕ: первый раз ОЧЕНЬ больно! Но мы же мужики!</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Новосибирск | Стаж на форуме: 2 года | Сообщения: 187
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#5</span>
+                <span class="post-author">КремоЛысый</span>
+                <span class="post-date">10.05.2000 13:18</span>
+            </div>
+            <div class="post-content">
+                <p>Крем для депиляции - незаслуженно забытый метод!</p>
+                <p>Пользуюсь Veet для чувствительной кожи. Да, для женщин, но работает отлично!</p>
+                <p>Как использовать:</p>
+                <p>1. Нанести равномерно на голову</p>
+                <p>2. Подождать 6-7 минут (НЕ БОЛЬШЕ!)</p>
+                <p>3. Смыть теплой водой</p>
+                <p>4. Нанести увлажняющий крем</p>
+                <p>РЕЗУЛЬТАТ: Идеальная гладкость на 5-7 дней!</p>
+                <p>ВАЖНО: Сначала проверьте на маленьком участке! У некоторых бывает аллергия.</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Казань | Стаж на форуме: 4 месяца | Сообщения: 28
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#6</span>
+                <span class="post-author">ЛазерныйЧел</span>
+                <span class="post-date">10.05.2000 13:42</span>
+            </div>
+            <div class="post-content">
+                <p>Лазерная эпиляция - единственный ПОСТОЯННЫЙ метод!</p>
+                <p>Да, это дорого. Да, нужно несколько сеансов. Но это ТОГО СТОИТ!</p>
+                <p>После 6 сеансов у меня перестало расти 90% волос на голове!</p>
+                <p>Теперь бреюсь раз в 2-3 МЕСЯЦА и то чисто символически!</p>
+                <p>Это как инвестиция - платишь один раз, пользуешься всю жизнь!</p>
+                <p>Кто хочет информацию о клиниках - пишите в личку.</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Москва | Стаж на форуме: 1 год | Сообщения: 54
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#7</span>
+                <span class="post-author">БабушкиныРецепты</span>
+                <span class="post-date">10.05.2000 14:01</span>
+            </div>
+            <div class="post-content">
+                <p>Народные средства самые НАТУРАЛЬНЫЕ и БЕЗОПАСНЫЕ!</p>
+                <p>Мой рецепт (от бабушки, она целительница):</p>
+                <p>1. 2 столовые ложки горчичного порошка</p>
+                <p>2. 1 столовая ложка соды</p>
+                <p>3. 3 столовые ложки йогурта (без добавок)</p>
+                <p>4. 5 капель масла чайного дерева</p>
+                <p>Смешать, нанести на голову на 15 минут. Смыть теплой водой.</p>
+                <p>Делать 2 раза в неделю. Через месяц волосы станут очень редкими и тонкими!</p>
+                <p>БОНУС: кожа становится очень здоровой и сияющей!</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Воронеж | Стаж на форуме: 11 месяцев | Сообщения: 97
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#8</span>
+                <span class="post-author">СкептикЛысый</span>
+                <span class="post-date">10.05.2000 14:22</span>
+            </div>
+            <div class="post-content">
+                <div class="quote">
+                    <p><strong>БабушкиныРецепты написал:</strong></p>
+                    <p>1. 2 столовые ложки горчичного порошка</p>
+                    <p>2. 1 столовая ложка соды</p>
+                    <p>3. 3 столовые ложки йогурта (без добавок)</p>
+                    <p>4. 5 капель масла чайного дерева</p>
+                </div>
+                <p>Друг, ты серьезно? Это же просто маска для кожи головы!</p>
+                <p>Как это может удалить волосы? Научного обоснования НОЛЬ!</p>
+                <p>Не вводите людей в заблуждение. Станок, электробритва, крем, воск - это работает.</p>
+                <p>А эти народные "рецепты от бабушки" - пустая трата времени и продуктов.</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Екатеринбург | Стаж на форуме: 2 года | Сообщения: 245
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#9</span>
+                <span class="post-author">БабушкиныРецепты</span>
+                <span class="post-date">10.05.2000 14:34</span>
+            </div>
+            <div class="post-content">
+                <div class="quote">
+                    <p><strong>СкептикЛысый написал:</strong></p>
+                    <p>Друг, ты серьезно? Это же просто маска для кожи головы!</p>
+                    <p>Как это может удалить волосы? Научного обоснования НОЛЬ!</p>
+                </div>
+                <p>Моей бабушке 87 лет, и она знает о травах и народной медицине больше, чем все ученые вместе взятые!</p>
+                <p>Горчица раздражает волосяные луковицы и они со временем атрофируются.</p>
+                <p>Сода меняет pH кожи и создает неблагоприятную среду для роста волос.</p>
+                <p>А масло чайного дерева - природный антисептик!</p>
+                <p>Не веришь - не используй. Но многие на форуме ПОДТВЕРДЯТ эффективность!</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Воронеж | Стаж на форуме: 11 месяцев | Сообщения: 98
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#10</span>
+                <span class="post-author">АдминЛысый</span>
+                <span class="post-date">10.05.2000 14:45</span>
+            </div>
+            <div class="post-content">
+                <p>Коллеги, давайте без споров! Каждый выбирает метод, который ему подходит.</p>
+                <p>Напоминаю, что форум не несет ответственности за советы пользователей.</p>
+                <p>Всегда консультируйтесь со специалистами перед использованием любых средств!</p>
+                <p>Голосование продолжается, делитесь своим опытом!</p>
+            </div>
+            <div class="post-footer">
+                АДМИНИСТРАТОР | Стаж на форуме: 3 года | Сообщения: 2144
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#11</span>
+                <span class="post-author">ОригиналЛысый</span>
+                <span class="post-date">10.05.2000 15:03</span>
+            </div>
+            <div class="post-content">
+                <p>Голосую за "Другое", потому что я использую НАЖДАЧНУЮ БУМАГУ!</p>
+                <p>Да-да, не удивляйтесь! Начал с шутки, а потом понял, что это работает!</p>
+                <p>Техника:</p>
+                <p>1. Сначала машинкой срезать до минимума</p>
+                <p>2. Наждачка зернистостью 800-1000 (более грубая повредит кожу!)</p>
+                <p>3. Аккуратно "шлифовать" круговыми движениями</p>
+                <p>ПРЕИМУЩЕСТВА:</p>
+                <p>- Сверхгладкая кожа (как отполированная)</p>
+                <p>- Эффект держится дольше, чем от бритвы</p>
+                <p>- Нет вросших волос вообще</p>
+                <p>ПРЕДУПРЕЖДЕНИЕ: Делайте очень осторожно! Это экстремальный метод!</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Самара | Стаж на форуме: 6 месяцев | Сообщения: 41
+            </div>
+        </div>
+        
+        <div class="post">
+            <div class="post-header">
+                <span class="post-number">#12</span>
+                <span class="post-author">ШокированныйЛысый</span>
+                <span class="post-date">10.05.2000 15:17</span>
+            </div>
+            <div class="post-content">
+                <div class="quote">
+                    <p><strong>ОригиналЛысый написал:</strong></p>
+                    <p>Голосую за "Другое", потому что я использую НАЖДАЧНУЮ БУМАГУ!</p>
+                </div>
+                <p>ТЫ СЕРЬЕЗНО?!? Это же жесть!</p>
+                <p>Не думаю, что это здоровый подход... Кожа головы очень нежная.</p>
+                <p>Но звучит настолько безумно, что даже интересно...</p>
+                <p>А какие ощущения? Не больно? Не раздражает потом?</p>
+            </div>
+            <div class="post-footer">
+                Откуда: Киев | Стаж на форуме: 3 месяца | Сообщения: 22
+            </div>
+        </div>
+        
+        <div class="pagination">
+            <a href="#" class="button"><<</a>
+            <a href="#" class="button">1</a>
+            <a href="#" class="button">2</a>
+            <a href="#" class="button">3</a>
+            <a href="#" class="button">>></a>
+        </div>
+        
+        <div class="reply-form">
+            <h3>ОТВЕТИТЬ В ТЕМУ</h3>
+            <form>
+                <div>
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" name="message" rows="6"></textarea>
+                </div>
+                <div>
+                    <input type="button" class="submit-btn" value="ОТПРАВИТЬ">
+                </div>
+            </form>
+        </div>
+        
+        <div class="footer">
+            <p>© 2000 ФОРУМ ДОБРОВОЛЬНОГО ОБЛЫСЕНИЯ</p>
+            <p>Оптимизировано для Netscape Navigator 4.0 и Internet Explorer 5.0</p>
+            <p><img src="counter.gif" alt="Счетчик посещений"> <img src="ie_logo.gif"> <img src="netscape_logo.gif"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
