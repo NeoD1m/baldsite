@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация - ФОРУМ: Добровольное Облысение</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="bald.png" alt="Лысина" class="logo">
+            <h1>ФОРУМ: ДОБРОВОЛЬНОЕ ОБЛЫСЕНИЕ</h1>
+            <div class="counter">
+                <span>Посетителей онлайн: 78</span>
+                <span>Всего посещений: 42069</span>
+            </div>
+        </div>
+        
+        <div class="marquee">
+            <marquee scrollamount="3">*** ДОБРО ПОЖАЛОВАТЬ НА ФОРУМ ДОБРОВОЛЬНОГО ОБЛЫСЕНИЯ *** САМЫЙ ПОПУЛЯРНЫЙ ФОРУМ ДЛЯ НАСТОЯЩИХ МУЖЧИН *** ОБЛЫСЕЙ СЕБЯ САМ *** ПРИСОЕДИНЯЙСЯ К НАМ ***</marquee>
+        </div>
+        
+        <div class="navigation">
+            <a href="index.html" class="button">ГЛАВНАЯ</a>
+            <a href="index.html" class="button">НОВЫЕ ТЕМЫ</a>
+            <a href="thread1.html" class="button">ПРАВИЛА</a>
+            <a href="faq.html" class="button">ЧаВо</a>
+            <a href="register.html" class="button">РЕГИСТРАЦИЯ</a>
+        </div>
+
+        <div class="thread-content">
+            <h2>Регистрация нового пользователя</h2>
+            
+            <form class="registration-form" action="register.php" method="POST">
+                <div class="form-group">
+                    <label for="username">Желаемое имя пользователя:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password-confirm">Подтверждение пароля:</label>
+                    <input type="password" id="password-confirm" name="password-confirm" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="hair-status">Текущий статус волос:</label>
+                    <select id="hair-status" name="hair-status" required>
+                        <option value="">Выберите вариант</option>
+                        <option value="full">Полная шевелюра</option>
+                        <option value="partial">Частичное облысение</option>
+                        <option value="bald">Уже лысый</option>
+                        <option value="parasite">Познакомился с Паразидом</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="bald-photo">Фотография вашей лысины (ОБЯЗАТЕЛЬНО):</label>
+                    <input type="file" id="bald-photo" name="bald-photo" accept="image/*" required>
+                    <div class="photo-note">
+                        <p>Для регистрации на форуме необходимо предоставить фотографию вашей лысины.</p>
+                        <p>Если вы еще не лысый, сначала облысейте себя, затем загрузите фото и вернитесь для регистрации.</p>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="terms" required>
+                        Я согласен с <a href="thread1.html">правилами форума</a> и подтверждаю, что хочу стать лысым
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="button">Зарегистрироваться</button>
+                </div>
+            </form>
+
+            <div class="registration-note">
+                <p>После регистрации вы получите письмо с подтверждением на указанный email.</p>
+                <p>Если вы уже познакомились с Паразидом, укажите это в форме - ваша регистрация будет одобрена быстрее!</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2000 ФОРУМ ДОБРОВОЛЬНОГО ОБЛЫСЕНИЯ</p>
+            <p>Оптимизировано для Netscape Navigator 4.0 и Internet Explorer 5.0</p>
+            <p><img src="counter.gif" alt="Счетчик посещений"> <img src="ie_logo.gif"> <img src="netscape_logo.gif"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

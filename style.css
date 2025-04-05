@@ -115,11 +115,6 @@ body {
     background-color: #000060;
 }
 
-.pagination {
-    text-align: center;
-    margin: 10px 0;
-}
-
 .footer {
     background-color: #000080;
     text-align: center;
@@ -131,4 +126,134 @@ body {
 
 img {
     border: 0;
+}
+
+/* FAQ Styles */
+.faq-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #000060;
+    border: 1px solid #c0c0c0;
+    color: #ffffff;
+}
+
+.faq-item h3 {
+    color: #ff0000;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px #000000;
+}
+
+.faq-item ul, .faq-item ol {
+    margin-left: 20px;
+    color: #00ffff;
+}
+
+/* Registration Form Styles */
+.registration-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000060;
+    border: 1px solid #c0c0c0;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #00ffff;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #c0c0c0;
+    background-color: #000040;
+    color: #ffffff;
+}
+
+.form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.registration-note {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #800000;
+    border: 1px solid #ff0000;
+    color: #ffffff;
+}
+
+/* Thread Content Styles */
+.thread-content {
+    padding: 20px;
+    background-color: #000040;
+    border: 1px solid #c0c0c0;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #000060;
+    border: 1px solid #c0c0c0;
+}
+
+.post-header {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.author {
+    font-weight: bold;
+    color: #ff0000;
+    text-shadow: 1px 1px #000000;
+}
+
+.date {
+    color: #00ffff;
+    margin-left: 10px;
+}
+
+.post-content {
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.photo-note {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #800000;
+    border: 1px solid #ff0000;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.new-topics-note {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #000060;
+    border: 1px solid #c0c0c0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.new-topics-note a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+.new-topics-note a:hover {
+    color: #ffff00;
+    text-decoration: underline;
 } 
